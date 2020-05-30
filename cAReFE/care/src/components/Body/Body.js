@@ -1,12 +1,13 @@
 import React from "react";
-// import News from './News'
+
 import HeadSection from "./Home/HeadSection";
+// import Dashboard from "./Dashboard/Dashboard";
 
 function Body() {
   return (
     <div>
       <HeadSection />
-      {/* <News /> */}
+      {/* <Dashboard /> */}
     </div>
   );
 }
