@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-
 // reactstrap components
 import { UncontrolledTooltip } from "reactstrap";
 
@@ -34,11 +33,7 @@ export class Navbar extends Component {
                     </a>
                   </li>
                   <li>
-<<<<<<< HEAD
-                    <a className="nav-link mr-5 ml-5" href='cAReFE/care/src/components/Body/News.js '>
-=======
                     <a className="nav-link mr-5 ml-5" id="news" href="/news">
->>>>>>> 12fb2185a679a81dc1d95d98be8e29d7c0e8b322
                       <FontAwesomeIcon icon={faRssSquare} size="3x" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         News
