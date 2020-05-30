@@ -32,3 +32,4 @@ I am cARe, your COVID-19 medical advisor.
 # Try it out. 
 
 - Link to webpage: https://arcare.tech
+- Devpost submission: https://devpost.com/software/care-6zdb8f
