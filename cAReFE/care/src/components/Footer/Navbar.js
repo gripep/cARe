@@ -12,14 +12,14 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 export class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg fixed-bottom navbar-light bg-primary">
+      <nav className="navbar navbar-expand-lg fixed-bottom navbar-dark bg-primary">
         <div class="collapse navbar-collapse">
           <div className="container-fluid">
             <div className="row justify-content-md-center">
               <div className="col-4 col-md-auto">
                 <ul class="navbar-nav mr-auto">
                   <li>
-                    <a className="nav-link mr-5 ml-5" id="home" href="#">
+                    <a className="nav-link mr-5 ml-5" id="home" href="/">
                       <FontAwesomeIcon icon={faHome} size="3x" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         Home
@@ -34,7 +34,11 @@ export class Navbar extends Component {
                     </a>
                   </li>
                   <li>
+<<<<<<< HEAD
                     <a className="nav-link mr-5 ml-5" href='cAReFE/care/src/components/Body/News.js '>
+=======
+                    <a className="nav-link mr-5 ml-5" id="news" href="/news">
+>>>>>>> 12fb2185a679a81dc1d95d98be8e29d7c0e8b322
                       <FontAwesomeIcon icon={faRssSquare} size="3x" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         News
