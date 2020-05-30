@@ -4,7 +4,6 @@ I am cARe, your COVID-19 medical advisor.
 
 # What can you do with cARe?
 
-- I can do the following things for you:
 - Give you advice about the measures we should take when you have contact with the outside.
 - Recommend activities to do during the quarantine at home.
 - Analyze the symptoms you have to verify the probability of coronavirus.
@@ -28,7 +27,9 @@ I am cARe, your COVID-19 medical advisor.
 - React.
 - AWS.
 - Bootstrap.
+- Node.js
 
 # Try it out. 
 
 - Link to webpage: https://arcare.tech
+- Devpost submission: https://devpost.com/software/care-6zdb8f
