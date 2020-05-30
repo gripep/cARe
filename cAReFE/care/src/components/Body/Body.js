@@ -1,9 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
+import News from './News'
 
-export class Body extends Component {
-  render() {
-    return <div></div>;
-  }
+function Body() {
+  return (
+      <div>
+        <News />
+      </div>
+  )
 }
 
 export default Body;
