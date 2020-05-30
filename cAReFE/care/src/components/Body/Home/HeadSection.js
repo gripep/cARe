@@ -144,7 +144,7 @@ export function Home(props) {
                                                     fullWidth
                                                     className={classes.extraLargeButton}
                                                     classes={{label: classes.extraLargeButtonLabel}}
-                                                    href="#"
+                                                    href="https://68d2b5750d1b4fd79677c2456fea32ba.us-east-1.sumerian.aws/"
                                                 >
                                                     Interact with cARe
                                                 </Button>
