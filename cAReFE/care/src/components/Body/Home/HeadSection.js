@@ -55,7 +55,7 @@ const styles = theme => ({
     },
     wrapper: {
         position: "relative",
-        backgroundColor: theme.palette.secondary.main,
+        backgroundColor: theme.palette.primary,
         paddingBottom: theme.spacing(2)
     },
     image: {
@@ -113,16 +113,29 @@ export function Home(props) {
                                                 <Typography
                                                     variant={isWidthUp("lg", width) ? "h3" : "h4"}
                                                 >
-                                                    I am cARe, your COVID-19 medical advisor.
+                                                    I am <b>cARe</b>, your COVID19 medical advisor.
                                                 </Typography>
                                             </Box>
                                             <div>
                                                 <Box mb={2}>
                                                     <Typography
-                                                        variant={isWidthUp("lg", width) ? "h6" : "body1"}
+                                                        variant={isWidthUp("lg", width) ? "p" : "body1"}
                                                         color="textSecondary"
                                                     >
-                                                        We invite you to interact with cARe.
+                                                        <li>Advices about the measures to be taken when contact with
+                                                            the outside.
+                                                        </li>
+                                                        <li>Recommend activities to do during the quarantine at home.
+                                                        </li>
+                                                        <li>Analyze of symptoms to verify the probability of
+                                                            coronavirus.
+                                                        </li>
+                                                        <li>Learn simple measures like hand washing and social
+                                                            distancing.
+                                                        </li>
+                                                        <li>Accompany in these difficult times and mental
+                                                            health support.
+                                                        </li>
                                                     </Typography>
                                                 </Box>
                                                 <Button
