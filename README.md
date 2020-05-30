@@ -28,6 +28,7 @@ I am cARe, your COVID-19 medical advisor.
 - React.
 - AWS.
 - Bootstrap.
+- Node.js
 
 # Try it out. 
 
