@@ -12,7 +12,6 @@ import {
   withWidth,
 } from "@material-ui/core";
 import headerImage from "./logo.png";
-
 const styles = (theme) => ({
   extraLargeButtonLabel: {
     fontSize: theme.typography.body1.fontSize,
@@ -95,7 +94,6 @@ const styles = (theme) => ({
     paddingTop: theme.spacing(4),
   },
 });
-
 export function Home(props) {
   const { classes, theme, width } = props;
   return (
@@ -163,68 +161,6 @@ export function Home(props) {
                           Interact with cARe
                         </Button>
                       </div>
-                            <div className={classNames(classes.containerFix, "container")}>
-                                <Box justifyContent="space-between" className="row">
-
-                                    <Grid item xs={12} md={5}>
-                                        <Box
-                                            display="flex"
-                                            flexDirection="column"
-                                            justifyContent="space-between"
-                                            height="100%"
-                                        >
-                                            <Box mb={4}>
-                                                <Typography
-                                                    variant={isWidthUp("lg", width) ? "h3" : "h4"}
-                                                >
-                                                    I am <b>cARe</b>, your COVID19 medical advisor.
-                                                </Typography>
-                                            </Box>
-                                            <div>
-                                                <Box mb={2}>
-                                                    <Typography
-                                                        variant={isWidthUp("lg", width) ? "p" : "body1"}
-                                                        color="textSecondary"
-                                                    >
-                                                        <li>Advices about the measures to be taken when contact with
-                                                            the outside.
-                                                        </li>
-                                                        <li>Recommend activities to do during the quarantine at home.
-                                                        </li>
-                                                        <li>Analyze of symptoms to verify the probability of
-                                                            coronavirus.
-                                                        </li>
-                                                        <li>Learn simple measures like hand washing and social
-                                                            distancing.
-                                                        </li>
-                                                        <li>Accompany in these difficult times and mental
-                                                            health support.
-                                                        </li>
-                                                    </Typography>
-                                                </Box>
-                                                <Button
-                                                    variant="contained"
-                                                    color="secondary"
-                                                    fullWidth
-                                                    className={classes.extraLargeButton}
-                                                    classes={{label: classes.extraLargeButtonLabel}}
-                                                    href="https://68d2b5750d1b4fd79677c2456fea32ba.us-east-1.sumerian.aws/"
-                                                >
-                                                    Interact with cARe
-                                                </Button>
-                                            </div>
-                                        </Box>
-                                    </Grid>
-                                    <Grid item md={4}>
-                                        <img
-                                            src={headerImage}
-                                            className={classes.image}
-                                            alt="cARe logo"
-                                        />
-                                    </Grid>
-                                </Box>
-                            </div>
-                        </Card>
                     </Box>
                   </Grid>
                   <Grid item md={4}>
@@ -243,11 +179,9 @@ export function Home(props) {
     </Fragment>
   );
 }
-
 Home.propTypes = {
   classes: PropTypes.object,
   width: PropTypes.string,
   theme: PropTypes.object,
 };
-
 export default withWidth()(withStyles(styles, { withTheme: true })(Home));
