@@ -59,3 +59,4 @@ I am cARe, your COVID-19 medical advisor.
 - Link to Youtube video: #
 - Link to GitHub Repository: https://github.com/gripep/cARe
 - Devpost submission: https://devpost.com/software/care-6zdb8f
+- cARe Interaction: https://68d2b5750d1b4fd79677c2456fea32ba.us-east-1.sumerian.aws/
